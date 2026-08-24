@@ -62,11 +62,11 @@ The evaluation focuses on:
 
 The standard LMS update is
 
-$$
+```math
 \mathbf{w}(n)
 =
 \mathbf{w}(n-1) + \mu(n)e(n)\mathbf{u}(n)
-$$
+```
 
 where the step size $\mu(n)$ controls the convergence behavior.
 
