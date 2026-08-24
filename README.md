@@ -62,19 +62,17 @@ The evaluation focuses on:
 
 The standard LMS update is
 
-\[
+$$
 \mathbf{w}(n)
 =
-\mathbf{w}(n-1)
-+
-\mu(n)e(n)\mathbf{u}(n),
-\]
+\mathbf{w}(n-1) + \mu(n)e(n)\mathbf{u}(n)
+$$
 
-where the step size \(\mu(n)\) controls the convergence behavior.
+where the step size $\mu(n)$ controls the convergence behavior.
 
-In BSLMS, the step size is related to the estimated variances \(q_w(n)\)
-and \(q_v(n)\), allowing the algorithm to adapt the step size online rather
-than using a fixed value.
+In BSLMS, the step size is related to the estimated variances
+$q_w(n)$ and $q_v(n)$, allowing the algorithm to adapt the step size online
+rather than using a fixed value.
 
 ## Simulation Analysis
 
